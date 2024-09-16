@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNmpZEpxK8m2q8ZazBYNVtp2gB1ovR8FrkVQ&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding:20px;
+    text-align:center
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 30px;
+}
+nav a{
+color:white;
+text-decoration: none;
+}
+nav input[type="text"]{
+    padding:5px;
+    margin-left: 20px;
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    
+}
+#button{
+   border-radius: 10%;
+   width: 150px;
+   text-align: center;
+   height: 50px;
+   margin-top: 200px;
+   margin-bottom: 200px;
+   margin-left: 50%;
+   margin-right: 50%;
+
+}
+.search-comtainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#Search{
+    padding: 10px 15px;
+    cursor:pointer;
+    margin-left: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#Search:hover{
+    background-color: #0056b3;
+}
+input[type="text"]{
+    width:300px;
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
