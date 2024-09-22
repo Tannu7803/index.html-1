@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="ricemill.css">
+</head>
+<body id="home">
+   <header><h1>Hare Krishna Rice Mill</h1>
+<nav><ul>
+    <li><a href="#home">Home</a></li>
+    <a href="tel:+919215566733">Contact us</a></h2>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="#about us">About us</a></li>
+</ul>
+<div class="search-container">
+<input type="text" placeholder="Search..." id="searchInput">
+<button type="button" onclick="performSearch()" id="Search">Search</button></div></nav>
+</header> 
+<script>
+    function performSearch(){
+        const query =document.getElementById('searchInput').value.toLowerCase();
+        if(query.includes('about us')){
+            window.location.href='#about us';
+        } else if (query.includes('type of rice')){
+            window.location.href='rice type.html';
+    }
+          else if(query.includes('home')){
+            window.location.href='#home';
+}
+          
+          else if (query.includes('location')){
+            window.location.href='location.html';
+          } 
+          else if(query.includes('contact')){
+            window.location.href='tel:+91921556673';
+        }
+        else {
+           alert(' No result found for your search.') ;
+    }
+}
+function goTORicePage() {
+window.location.href="rice type.html";
+    }
+
+</script>
+<main>
+   <button type="button" id="button" onclick="goTORicePage()">Go to Rice Page</button>
+   
+</main>
+<footer style="align-items: start;" id="about us">
+<p>&copy;2024 Rice Mill.All rights reserved.</p>
+  Member:<br>
+  Jiwan Parkash-9215566733<br>
+  Shamsher Singh-9466216118<br>
+  Baljeet Singh-8814071111
+  <br>
+  <button style="background-color: yellowgreen; height: 50px; border-radius: 5%;" class="whatsapp" onclick="window.location.href='https://wa.me/9215566733'">Chat on whatsapp</button>
+  </footer>
+</address>
+</body>
+</html>
